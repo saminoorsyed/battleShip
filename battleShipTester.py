@@ -1,5 +1,5 @@
 import unittest
-from ShipGame import Ship, ShipGame
+from battleShip import Ship, ShipGame
 
 
 class TestShipGame(unittest.TestCase):

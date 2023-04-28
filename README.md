@@ -1,5 +1,5 @@
 # battleShip
-Python command line Battle Ship game completed in the spring of 2022
+Python outline for a Battle Ship game completed in the spring of 2022, just backend functionality, no interface yet
 
 
 # Sami Syed
@@ -14,18 +14,19 @@ Some small additions I included at the end of the ShipGame class were the method
 
 The only redundancy that I purposefully built in was the storage of ship coordinates for each player. As this project is currently written, each player has a master list of coordinates and a list of ship objects with their own coordinates stored as private data members. While it would be trivial to combine these data members into one, I thought that it might be useful to keep the functionality of counting the number of ships a player has remaining through a list of player ships and using a master list of the coordinates to use as constraints on ship placements separate. Though storing that information twice inevitably uses more memory, I thought that using the player master list as an extra constraint on ship placements would also more clearly showcase how I thought of programming the logic of this little game.
 
-Areas for improvement/ explorationincluding those beyond project specifications:
-1) Radar system with an adjustable radius of visibility
-2) Ability to move a ship at the cost of a turn
-3) Ability to have an adjustable number of players
-4) Ability to pick the size of the board
-5) Prompt system that simplifies input of ship coordinates and player actions
-6) Fun print graphics for missed and hit shots
-7) Custom player names
-8) Long term scoring system between players
-9) Computer opponent (using a random number generator and specific directions to fire near torpedoes that hit their mark and not where torpedos have already been fired or have missed)
-10) downloadable gui for the game to be distributed and downloaded
-11) Machine learning computer opponent that over the course of many games learns how to most effectively play (whether to choose horizontal or vertical lines based on hits or what search pattern is most efficient at finding enemy ships)
+Areas for improvement/ exploration including those beyond project specifications:
+1) Program a command line interface or front end for the game*
+2) Radar system with an adjustable radius of visibility
+3) Ability to move a ship at the cost of a turn
+4) Ability to have an adjustable number of players
+5) Ability to pick the size of the board
+6) Prompt system that simplifies input of ship coordinates and player actions
+7) Fun print graphics for missed and hit shots
+8) Custom player names
+9) Long term scoring system between players
+10) Computer opponent (using a random number generator and specific directions to fire near torpedoes that hit their mark and not where torpedos have already been fired or have missed)
+11) downloadable gui for the game to be distributed and downloaded
+12) Machine learning computer opponent that over the course of many games learns how to most effectively play (whether to choose horizontal or vertical lines based on hits or what search pattern is most efficient at finding enemy ships)
 
 Most of these are fairly trivial (aside from 10 and 11), but taken together it would be cumbersome to program them given my personal time constraints at the moment.
 
